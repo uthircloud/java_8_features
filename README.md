@@ -1,4 +1,4 @@
-# Java_8_features
+# Java 8 Features
 
 This repository willgive resources and samples for Java 8 features.
 
