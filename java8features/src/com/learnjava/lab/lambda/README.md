@@ -276,6 +276,8 @@ Lambda expression consist of three parts.
 	}
    
    With this we can use this method for any kind of use cases where we have a collection of data and want to filter that data based on certain condition and display the result.
+   
+  **References:**
   	  
-  	  **Reference:** [Lambda Oracle Documentation](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
+ [Lambda Oracle Documentation](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
   
