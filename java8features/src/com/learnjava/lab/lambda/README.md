@@ -65,7 +65,7 @@ Lambda expression consist of three parts.
  
   * Find members who's age is greater than 25.
   
-  [Approach-1: We can implement this in a conventional way like below.]((#real-cool-heading)
+  **Approach-1: We can implement this in a conventional way like below.**  
   
   **Ref:** **MemberManager.java**
      
@@ -79,7 +79,7 @@ Lambda expression consist of three parts.
 
   In this approach main draw back is when search criteria changes we need to make code change.
   
- [Approach-2: Create new generalized search method to handle age range search.]((#real-cool-heading)
+ **Approach-2: Create new generalized search method to handle age range search.**  
  
  **Ref:** **MemberManager.java**  
 
@@ -98,7 +98,7 @@ Lambda expression consist of three parts.
   In this approach also we have some draw back when there is a change in search criteria other than age also
   if there is a change in Member object when few more attribute is added like location.
   
-  [Approach-3: Implement Search criteria in separate Local Class and invoke it by interface.]((#real-cool-heading)
+ **Approach-3: Implement Search criteria in separate Local Class and invoke it by interface.**  
    
    **Ref:** **ManageMemberLocalClass.java**
   
@@ -143,7 +143,7 @@ Lambda expression consist of three parts.
    
    **Anonymous class is a inner class with no name. It can implement an interface or extend a class.**
    
-   [Approach-4: Implement Search criteria in Anonymous class and invoke it by interface.]((#real-cool-heading)
+  **Approach-4: Implement Search criteria in Anonymous class and invoke it by interface.**
    
    **Ref:** **ManageMbrAnonymousClass.java**  
    
@@ -167,7 +167,7 @@ Lambda expression consist of three parts.
    
    As Lambda expression is implementation of functional interface in our case **CheckMember** interface is having only one abstract method (its a functional interface) we can implement this logic using Lambda expression.
    
-   [Approach-5: Implement Search criteria as Lambda expression.]((#real-cool-heading)
+  **Approach-5: Implement Search criteria as Lambda expression.**  
    
    **Ref:** **ManageMemberLambda.java**  
    
@@ -186,7 +186,7 @@ Lambda expression consist of three parts.
 		  }
 	}  
 	
-   [Approach-6: Use of JDK standard interface with Lambda expression.]((#real-cool-heading)
+  **Approach-6: Use of JDK standard interface with Lambda expression.**  
    
    JDK has several standard functional interfaces already defined which can be used for our program anywhere.
    which you can find in the package **java.util.function**. 
@@ -211,7 +211,7 @@ Lambda expression consist of three parts.
 		}
 	  }
 	  
-  [Approach-6: Explore other JDK standard interface with Lambda expression.]((#real-cool-heading)
+ **Approach-6: Explore other JDK standard interface with Lambda expression.**  
   
   We have many already predefined functional interfaces. **Consumer<T>** will accept a value and return nothing.
   This can be used when we want to pass an argument with no return type.
@@ -260,7 +260,7 @@ Lambda expression consist of three parts.
 		}
 	}
 
-   [Approach-7: Generics magic with Lambda.]((#real-cool-heading)
+  **Approach-7: Generics magic with Lambda.**  
    
    In the above example we are using Functional interfaces with defined type params like **Predicate<Member>**.Let's change this with Generics will make things more powerful.
    
