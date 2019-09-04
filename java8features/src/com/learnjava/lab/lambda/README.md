@@ -21,9 +21,9 @@ Lambda expression consist of three parts.
     
     Also it can be empty parentheses when no argument method expression.
     
-    (a,b) -> a + b
-    a -> System.out.println(a)
-    ()-> "Return this string" 
+    (a,b) -> a + b  
+    a -> System.out.println(a)  
+    ()-> "Return this string"   
      
  * An arrow token <b> -> </b>  
  
@@ -43,7 +43,7 @@ Lambda expression consist of three parts.
      When specifying statement in lambda body it should be enclosed by  parentheses. But expressions need not be in 
      parentheses.
      
-     a -> a.equals("Test") && a.length == 4  // This is expression 
+     a -> a.equals("Test") && a.length == 4  // This is expression   
      a -> { return a.equals("Test") && a.length == 4} // As return is statement it should be specified in parentheses.
      
      In Lambda expression void method invocations do not need to be enclosed in parentheses.
